@@ -1,0 +1,11 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+ <ribbon>
+  <tabs>
+   <tab idMso="TabHome" >
+    <group id="customGroup1" label="pptex" insertAfterMso="GroupEditing">
+     <button id="customButton1" label="pptex" size="large" onAction="pptex" image="pptex" />
+    </group>
+   </tab>
+  </tabs>
+ </ribbon>
+</customUI>
