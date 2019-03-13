@@ -1,5 +1,5 @@
 # pptex
-[pptex](https://github.com/v-joe/pptex) is LaTeX Add-In for
+[pptex](https://github.com/v-joe/pptex) is a LaTeX Add-In for
 PowerPoint 2016+ for Mac allowing for insertion of equations rendered as PDF
 with `pdflatex`. The LaTeX source is stored as alternative text with the
 equations in the slides, so that running the [pptex](https://github.com/v-joe/pptex)
