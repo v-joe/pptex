@@ -1,4 +1,4 @@
-'pptex for Mac Microsoft Powerpoint 2016
+'pptex for Microsoft Powerpoint for Mac
 'https://github.com/v-joe/pptex
 'License: GPLv3
 Sub pptex()
