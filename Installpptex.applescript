@@ -1,3 +1,4 @@
+#!/usr/bin/osascript
 set ti to "pptex Installer"
 set cnt to "Continue installation"
 set cnc to "Cancel installation"
