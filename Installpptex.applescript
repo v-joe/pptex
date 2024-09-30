@@ -281,5 +281,8 @@ display dialog "All files have been installed.
 Now open PowerPoint, choose Tools->PowerPoint Add-ins...
 Click + and open Documents/pptex/pptex.ppam
 Click Enable Macros and Turn off virus protection
+If asked, allow for control over TextMate editor (so
+that pptex knows when TextMate is done editing the
+eqution tex source code)
 Click OK
 " with title ti buttons {"OK"}
