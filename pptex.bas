@@ -10,7 +10,6 @@ LF = Chr(10)
 tex = "\documentclass[varwidth=true,border=2pt]{standalone}" & LF & _
     "\usepackage{color}" & LF & _
     "\begin{document}" & LF & _
-    "\huge" & LF & _
     LF & LF & LF & LF & LF & LF & _
     "\end{document}"
 
@@ -69,6 +68,8 @@ If dtex = "" Then
         fileName:=pdf, _
         LinkToFile:=msoFalse, _
         SaveWithDocument:=msoTrue, Left:=200, Top:=100)
+    x.ScaleWidth 2, msoTrue
+    x.ScaleHeight 2, msoTrue
 Else
 ' In case of selected pptex-generated shape, replace it with new one
 ' at same position and same relative scale factor
